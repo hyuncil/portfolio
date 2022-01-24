@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "973095004283",
+    "project_id": "happy-a4c27",
+    "storage_bucket": "happy-a4c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973095004283:android:4b531bcd3adbe582039ade",
+        "android_client_info": {
+          "package_name": "com.rookie.flutter_happy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973095004283-rsr7fic7q2v8g0ifdgio8ng3c791jv55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rookie.flutter_happy",
+            "certificate_hash": "3480c522ed5d10f45a9426c4c70ec83bdeb16d51"
+          }
+        },
+        {
+          "client_id": "973095004283-3mjt7f7o2pjva6dafcnhokptc3nkn49p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwwJyTuV_KIBQvjONk-XnDUCMJmrumKts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973095004283-3mjt7f7o2pjva6dafcnhokptc3nkn49p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
