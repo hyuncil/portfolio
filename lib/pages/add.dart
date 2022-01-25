@@ -18,7 +18,7 @@ class Add extends GetView<AddController> {
           FocusScope.of(context).unfocus();
         },
 
-          child: 
+          child:
           SingleChildScrollView(
             child: Column(
               children: [
@@ -61,7 +61,8 @@ class Add extends GetView<AddController> {
                         : Image.file(
                             controller.userModel.value.backgroundFile,
                             fit: BoxFit.fill,
-                          )),
+                          )
+                ),
               ),
             ),
             Positioned(
@@ -108,6 +109,7 @@ class Add extends GetView<AddController> {
             onPressed: () {
               RouteController.to.backpage();
               controller.fetchData();
+              controller.userModel.value.backgroundFile = null;
             },
             child: Text('입력'),
             color: Colors.limeAccent,

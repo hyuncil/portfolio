@@ -79,6 +79,7 @@ class AddController extends GetxController {
   TextClear() {
     titleController.clear();
     discriptionController.clear();
+
   }
 
   pickImage() async {
