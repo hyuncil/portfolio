@@ -21,10 +21,10 @@ class CustomAppBar extends GetView<AddController> {
   _logo() {
     return Container(
       child: Padding(
-        padding: const EdgeInsets.only(top:30.0),
+        padding: const EdgeInsets.only(left: 50),
         child: Image.asset(
-          'assets/images/smile.logo.png',
-          width: 200,
+          'assets/images/HotPic.png',
+          width:250,
         ),
       ),
     );
